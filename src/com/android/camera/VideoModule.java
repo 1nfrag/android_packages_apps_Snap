@@ -1223,6 +1223,11 @@ public class VideoModule extends BaseModule<VideoUI> implements
     }
 
     @Override
+    public boolean delayAppExitToSaveImage() {
+        return false;
+    }
+
+    @Override
     public void installIntentFilter() {
         if(mReceiver != null)
             return;

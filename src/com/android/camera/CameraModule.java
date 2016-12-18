@@ -80,4 +80,6 @@ public interface CameraModule<T extends BaseUI> {
     public void hidePreviewCover();
 
     public void animateControls(float offset);
+
+    public boolean delayAppExitToSaveImage();
 }
