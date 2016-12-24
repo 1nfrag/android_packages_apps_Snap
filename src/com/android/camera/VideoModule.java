@@ -2776,6 +2776,8 @@ public class VideoModule extends BaseModule<VideoUI> implements
 
     private void updateTorchDelayed() {
         mHandler.sendEmptyMessageDelayed(HANDLE_FLASH_TORCH_DELAY, 800);
+        // TODO: Update this if HFR/HSR is fixed in the future
+        mParameters.set("preview-fps-range", "30000,30000");
     }
 
     private void updateCameraParametersInitialize() {
