@@ -658,10 +658,6 @@ public class VideoModule extends BaseModule<VideoUI> implements
         }
     }
 
-    @Override
-    public void setFocusMode(String mode) {
-    }
-
     // SingleTapListener
     // Preview area is touched. Take a picture.
     @Override
